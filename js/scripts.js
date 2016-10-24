@@ -18,10 +18,13 @@ $(document).ready(function() {
     var question5 = $("#question5").val();
     answers = [question1, question2, question3, question4, question5];
     change_array(new_array);
-    // new_array.push(answers[1])
-    // new_array.push(answers[0])
-    // new_array.push(answers[2])
     alert(new_array);
+
+    $("#output").text(answers[0]);
+    $("#output2").text(answers[1]);
+    $("#output3").text(answers[2]);
+    $("#output4").text(answers[3]);
+    $("#output5").text(answers[4]);
     event.preventDefault();
   });
 
